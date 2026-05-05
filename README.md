@@ -71,14 +71,14 @@ Raw Orders (CSV / REST API / Message Queue)
 ### Compile & Run
 
 ```bash
-git clone https://github.com/arunkarthikb/warehouse-etl-pipeline.git
+git clone https://github.com/ak9521/warehouse-etl-pipeline.git
 cd warehouse-etl-pipeline
 
 # Compile all Java files
 javac -d out $(find src -name "*.java")
 
 # Run the pipeline
-java -cp out com.arunkarthik.warehouse.pipeline.WarehousePipeline
+java -cp out com.ak9521.warehouse.pipeline.WarehousePipeline
 ```
 
 ### Expected Output
